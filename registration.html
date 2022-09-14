@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="main.css" rel="stylesheet" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <h1 class="title">Registration Form</h1>
+      <p id="description">Thank you for taking the time</p>
+      <form id="form">
+        <div class="form-element">
+          <div class="form-label"><label for="name">Name</label></div>
+          <input
+            class="form-input-element"
+            id="name"
+            type="text"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-element">
+          <div class="form-label"><label for="email">Email</label></div>
+          <input
+            id="email"
+            type="email"
+            class="form-input-element"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="form-element">
+          <div class="form-label"><label for="password">Password</label></div>
+          <input
+            id="password"
+            name="password"
+            type="password"
+            class="form-input-element"
+            placeholder="Enter your Password"
+            minlength="8"
+            required
+          />
+        </div>
+        <div class="form-element">
+          <div class="form-label"><label for="email">Date of Birth</label></div>
+          <input
+            id="dob"
+            type="date"
+            name="dob"
+            class="form-input-element"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="form-element-checkbox">
+          <input
+            type="checkbox"
+            class="form-input-checkbox"
+            id="acceptTerms"
+            required
+          />
+          <span>Accept terms and Conditions</span>
+        </div>
+        <div>
+          <button id="submit" class="form-button" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <h2 class="title">Entries</h2>
+    <div class="user-entries" id="user-entries"></div>
+    <script src="form.js"></script>
+  </body>
+</html>
