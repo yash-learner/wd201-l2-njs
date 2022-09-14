@@ -1,0 +1,106 @@
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 40px;
+    font-family: Courier;
+  }
+
+  #description {
+    font-size: 15px;
+    margin-top: -12px;
+    padding-bottom: 10px;
+  }
+
+  .form-container {
+    color: rgba(255, 255, 255, 90%);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-left: 80px;
+    width: auto;
+    background-color: rgba(0, 0, 0, 75%);
+    border-radius: 10px;
+  }
+
+  .form-element {
+    margin-top: 15px;
+    padding-left: 15px;
+  }
+  .form-label {
+    margin-bottom: 2px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .form-input-element {
+    padding: 10px;
+    width: 80%;
+    font-size: medium;
+  }
+
+  .form-input-checkbox {
+    height: 15px;
+    width: 15px;
+    margin-left: -2px;
+  }
+
+  .form-element-checkbox {
+    margin-top: 30px;
+    padding-left: 15px;
+  }
+  .form-button {
+    float: right;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: -20px;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  .form-button:hover {
+    background-color: rgba(18, 237, 40, 0.75);
+    color: white;
+  }
+
+  .user-entries {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .user-entries td,
+  .user-entries th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .user-entries tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .user-entries tr:hover {
+    background-color: #ddd;
+  }
+
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 75%);
+    color: white;
+  }
+
+  input:invalid {
+    border: 1px solid red;
+  }
+
+  input:valid {
+    border: 5px green red;
+  }
